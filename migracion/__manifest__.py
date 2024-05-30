@@ -1,10 +1,11 @@
 {
-    'name': 'Campo old_id Migracion',
-    'description': 'Modulo para guardar Id de campo de BBDD de origen para Optimizar migraciones de datos historicos. Valor encontrado en pestaña "Informacion Adicional"',
+    'name': 'Migracion res.partner.old_id ',
+    'description': 'Modulo para guardar Id de campo de BBDD de origen para poder realizar migraciones de datos historicos.',
     'author': 'Ignacio Shishko',
-    'version': '1.0.0',
+    'website': 'https://www.hitofusion.com/'
+    'version': '1.0',
     'category': 'Categoría del Módulo',
-    'depends': ['base', 'res.partner'],
+    'depends': ['base'],
     'data': [
         'views/respartner_view.xml'
     ],
